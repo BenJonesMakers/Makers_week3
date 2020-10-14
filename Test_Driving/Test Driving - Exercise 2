@@ -1,0 +1,12 @@
+As a student
+So that I can understand my recent motivation
+I want an IRB application that stores my motivation ratings
+And I want to see the average of my last 3 ratings
+
+Imagine how to use it:
+
+track_motivation
+
+show_motivations
+
+average_rating

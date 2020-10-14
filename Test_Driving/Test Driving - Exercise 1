@@ -1,0 +1,11 @@
+As a student
+So that I can remember people's names
+I want an IRB application that stores the names of people I meet
+
+Imagine how to use it:
+
+add_name
+
+add_meeting_place
+
+show_names

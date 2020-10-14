@@ -1,0 +1,25 @@
+As a student
+So that I can remember people's names
+I want an IRB application that stores the names of people I meet
+
+Imagine how to use it:
+
+add_name
+
+add_meeting_place
+
+show_names
+
+# The imagined example
+add_name(name)
+
+# The expectation
+expect(add_name("Jeff Hurst")).to eq "Jeff Hurst saved"
+
+# The full test
+
+describe "#add_name" do
+	it "Shows the name that was saved" do
+		expect(add_name("Jeff Hurst")).to eq "Jeff Hurst saved"
+	end
+end
